@@ -1,0 +1,42 @@
+.section-one-container{
+   /*background-color: rgba(240, 255, 255, 0.13);*/
+    height: 50vh;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section-one-container h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.section-one-container h1 span {
+    color: rgb(244, 198, 120);
+} 
+
+.content-01{
+    margin-right: 10px;
+    flex: 1;
+
+}
+.content-02{
+    flex: 1;
+    display: flex; /* Utilizamos flex para centrar la imagen */
+    justify-content: center; /* Centramos horizontalmente la imagen */
+    align-items: center; /* Centramos verticalmente la imagen */
+    height: 100%; /* Establecemos una altura del contenedor */
+}
+
+img{ 
+  max-height: 100%;  
+}
+
+
+
+

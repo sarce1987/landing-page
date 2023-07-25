@@ -1,0 +1,44 @@
+.container-navbar {
+  padding: 0 30px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-image: linear-gradient(
+    70deg,
+    hsl(240deg 78% 15%) 0%,
+    hsl(231deg 76% 18%) 11%,
+    hsl(226deg 74% 21%) 23%,
+    hsl(222deg 73% 25%) 36%,
+    hsl(219deg 74% 28%) 51%,
+    hsl(215deg 75% 31%) 68%,
+    hsl(212deg 77% 34%) 84%,
+    hsl(210deg 80% 37%) 92%,
+    hsl(207deg 83% 39%) 97%,
+    hsl(205deg 87% 42%) 100%
+  ); */
+}
+
+.icon-navbar ion-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+  color: rgb(224, 241, 247);
+}
+
+#nav-logo {
+  height: 60%;
+}
+#nav-logo img {
+  height: 100%;
+}
+
+.icon-navbar ion-icon:hover {
+  scale: 1.3;
+  transition: 0.2s;
+}
+
+#nav-logo:hover {
+  scale: 1.2;
+  transition: 0.2s;
+}
